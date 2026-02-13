@@ -1,0 +1,7 @@
+defaultNamespace: demo-app
+
+targets:
+  - name: observability-app-cls
+    clusterSelector:
+      matchLabels:
+        env: production
